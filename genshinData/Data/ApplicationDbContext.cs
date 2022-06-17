@@ -9,6 +9,7 @@ namespace genshinData.Data
         : base(options)
         {
         }
+        public DbSet<Region> Regiones { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
